@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial';
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 15px 0;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#perfil {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/427/015/small_2x/blue-background-with-geometric-accent-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.perfil-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.perfil-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ee6c4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.perfil-button:hover {
+    background-color: #d64b2a;
+}
+
+
+#servicios {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+#servicios h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#servicios ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+#servicios li {
+    margin-bottom: 10px;
+}
